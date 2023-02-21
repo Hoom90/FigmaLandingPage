@@ -4,9 +4,11 @@ function clickFunction(){
   if (x.style.display === "block") {
     x.style.display = "none";
     document.querySelector("main").style.marginTop= "110px"
+    document.querySelector(".go-bottom").style.top= "480px"
   } else {
     x.style.display = "block";
     document.querySelector("main").style.marginTop= "250px"
+    document.querySelector(".go-bottom").style.top= "620px"
   }
 }
 

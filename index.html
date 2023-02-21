@@ -6,23 +6,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>OldDayGeeks</title>
 	<link href="Style.css" rel="stylesheet">
-	<link rel="stylesheet" href="Icon/bootstrap-icons.css">
-	<link rel="stylesheet" href="Icon/remixicon.css">
 </head>
 <body>
 	<div class="container">
 		<header>
 			<nav>
-				<a href="#" class="TAG">#OldDayGeeks</a>
+				<a href="#" class="TAG"><img src="img/logo.png"></a>
+				<div class="navItem">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Library</a>
+					<a href="#" class="search">
+						<svg width="20px" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m795.904 750.72 124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 1 45.248-45.248zM480 832a352 352 0 1 0 0-704 352 352 0 0 0 0 704z"/></svg>
+					</a>
+				</div>
+				<a href="#" class="menu-icon" onclick="clickFunction()">
+					<svg height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" enable-background="new 0 0 50 50"
+						xml:space="preserve">
+						<path fill="#fff"
+							d="M8.667,15h30c0.552,0,1-0.447,1-1s-0.448-1-1-1h-30c-0.552,0-1,0.447-1,1S8.114,15,8.667,15z" />
+						<path fill="#fff"
+							d="M8.667,37h30c0.552,0,1-0.447,1-1s-0.448-1-1-1h-30c-0.552,0-1,0.447-1,1S8.114,37,8.667,37z" />
+						<path fill="#fff"
+							d="M8.667,26h30c0.552,0,1-0.447,1-1s-0.448-1-1-1h-30c-0.552,0-1,0.447-1,1S8.114,26,8.667,26z" />
+					</svg>
+				</a>
 				<div id="myLinks">
 					<a href="#">Home</a>
 					<a href="#">About</a>
 					<a href="#">Library</a>
-					<a href="#" class="bi bi-search"></a>
 				</div>
-				<a href="#" class="menu-icon" onclick="clickFunction()">
-					<i class="ri-menu-fill"></i>
-				</a>
 			</nav>
 		</header>
 		<main>
@@ -49,7 +63,15 @@
 				</li>
 			</ul>
 		</main>
-	<a href="#" class="go-bottom "><i class="bi bi-arrow-down"></i></a>
+	<a href="#" class="go-bottom"><svg fill="#fff" height="20px" width="20px" version="1.1" id="Layer_1"
+			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330"
+			xml:space="preserve">
+			<path id="XMLID_337_" d="M253.858,234.26c-2.322-5.605-7.792-9.26-13.858-9.26h-60V15c0-8.284-6.716-15-15-15
+		   c-8.284,0-15,6.716-15,15v210H90c-6.067,0-11.537,3.655-13.858,9.26c-2.321,5.605-1.038,12.057,3.252,16.347l75,75
+		   C157.322,328.536,161.161,330,165,330s7.678-1.464,10.607-4.394l75-75C254.896,246.316,256.18,239.865,253.858,234.26z M165,293.787
+		   L126.213,255h77.573L165,293.787z" />
+		</svg>
+	</a>
 
 	</div>
 	<script src="main.js"></script>
