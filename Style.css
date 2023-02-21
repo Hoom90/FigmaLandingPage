@@ -118,6 +118,15 @@ main ul li .btn2:hover{
 
 @media only screen and (max-width: 768px) {
 
+	body {
+		background-color: black;
+		background-image:	none;
+		background-repeat: no-repeat;
+		background-size: cover;
+		max-width: 100%;
+		margin: auto;
+	}
+
 	main{
 		margin-top: 110px;
 		height: 900px;
